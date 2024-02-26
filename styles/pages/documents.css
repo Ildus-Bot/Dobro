@@ -14,10 +14,16 @@
 	line-height: 140%;
 	padding: 0;
 	margin-bottom: 20px;
+	transition: all 0.3s ease-out;
 }
 
 .documents__text {
 	line-height: 140%;
+}
+
+.documents__link:hover, .documents__link:focus {
+	color: rgb(0, 195, 160);
+  	opacity: 0.8;
 }
 
 @media (max-width: 768px) {
