@@ -24,7 +24,7 @@
 .news-page__link::before {
 	content: '';
 	position: absolute;
-	top: 6px;
+	top: 5px;
 	left: 0;
 	display: inline-block;
 	height: 10px;
