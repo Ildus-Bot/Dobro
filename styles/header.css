@@ -41,6 +41,7 @@ html {
   font-weight: 400;
   box-sizing: border-box;
   color: black;
+  scroll-behavior: smooth;
 }
 
 .header__container {
@@ -142,16 +143,16 @@ html {
 }
 
 .background-button {
-		display: none;
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100vw;
-		height: 100vh;
-		z-index: 3;
-		background: none;
-		border: none;
-	}
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	z-index: 3;
+	background: none;
+	border: none;
+}
 
 .navigation {
 	width: 100vw;

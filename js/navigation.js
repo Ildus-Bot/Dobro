@@ -8,7 +8,8 @@ let backgroundButton = document.querySelector('.background-button');
 let buttonClick = false;
 
 buttonBurger.addEventListener("click", function () {
-	console.log("Тут");
+	document.body.scrollTop = document.documentElement.scrollTop = 0;
+	
 	if (!buttonClick) {
 		body.style.overflow = 'hidden';
 
